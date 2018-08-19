@@ -6,6 +6,11 @@ function takeANumber(katzDeli, name) {
 }
 
 function nowServing(katzDeli, name) {
-  
-  return ("The line is empty.")
+  if (katzDeli.length > 0) {
+  return (`${name}`);
+  }
+  katzDeli.shift(`${name}`);
+  else {
+  return ("There is nobody waiting to be served!");
+  }
 }
