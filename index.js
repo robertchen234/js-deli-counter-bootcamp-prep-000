@@ -1,3 +1,3 @@
-function takeANumber(current, newName) {
+function takeANumber(currentNumber, newName) {
   
 }
