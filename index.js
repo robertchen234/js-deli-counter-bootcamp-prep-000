@@ -1,6 +1,6 @@
 function takeANumber(currentNumber, newName) {
   for (var i = 0; i < currentNumber.length; i++) {
-  takeANumber.push("Welcome " + [newName] + ". You are " + [currentNumber] + " in line.")
+  array.push("Welcome " + newName[i] + ". You are " + currentNumber[i] + " in line.");
   }
-  return takeANumber
+  return array;
 }
