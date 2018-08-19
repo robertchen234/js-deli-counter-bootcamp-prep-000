@@ -17,3 +17,7 @@ function nowServing(katzDeli) {
   return (`Currently serving ${katzDeli.shift()}.`);
 }
 
+function currentLine() {
+  
+}
+}
