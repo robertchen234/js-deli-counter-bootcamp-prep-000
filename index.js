@@ -7,4 +7,5 @@ function takeANumber(katzDeli, name) {
 
 function nowServing(katzDeli, name) {
   
+  return ("The line is empty.")
 }
